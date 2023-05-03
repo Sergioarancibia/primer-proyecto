@@ -24,13 +24,18 @@ h1 {
     padding: 20px;
     margin: 20px;
 }
-
+main div {
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
 h2 {
     color: darkred;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     display: flex;
     padding: 30px;
+    margin: 30px;
 }
 
 .nuestras-oportunidades {
@@ -39,17 +44,21 @@ h2 {
     text-align: center;
 }
 
-.grid-container1 {
+.grid-container-autos {
     display: flex;
     justify-content: center;
     background-color: rgb(206, 206, 206);
 }
+.card {
+    border: none;
+}
 
-.grid-auto {
+/*.grid-auto {
     display: flex;
     flex-direction: column;
     margin: 10px;
-}
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}*/
 
 .marca {
     text-align: center;
@@ -79,9 +88,7 @@ h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.type_boton2 {
-    font-family: fantasy;
-}
+
 
 header nav ul li a {
     color: black;
@@ -110,6 +117,7 @@ header nav ul li {
 .container-sus {
     justify-self: center;
     padding: 10px;
+    display: fl;
 }
 
 /*pie de pagina */
