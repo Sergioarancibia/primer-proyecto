@@ -1,56 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Primer codigo</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <title>Primer codigo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <header>
-        
-        <nav>
-            <a href="../index.html"><img height="100px" src="../img/sportive-car.png" alt=""></a>            <ul>
-                <li><a href="../paginas/0km.html">0km</a></li>
-                <li><a href="../paginas/compraventa.html">compra venta</a></li>
-                <li><a href="../paginas/servicios.html">servicios</a></li>
-                <li><a href="../paginas/sobrenosotros.html">sobre nosotros</a></li>
-                <li><a href="../paginas/contacto.html">contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-<main>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../img/depositphotos_82277240-stock-photo-image.jpg" alt="Bootstrap" width="30" height="24">
+          </a>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../paginas/compraventa.html">Compra/Venta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../paginas/servicios.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../paginas/0km.html">0km</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="titulos-cotiza">
+      <div>
+        <h2>Cotizá</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias illo error unde rerum architecto
+          praesentium reiciendis aliquid velit. Debitis illum deleniti magnam aliquid quae harum expedita, cumque
+          adipisci dolorem quas.
+        </p>
+      </div class="titulos-verificacion">
+      <h2>Verificación</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa minus saepe sapiente distinctio, obcaecati vero
+        accusamus quibusdam at vitae omnis molestias delectus doloribus tenetur sit inventore placeat. Velit, voluptatem
+        beatae?</p>
+      <div class="titulos-gestion">
+        <h2>Gestión de Pagos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sint, quidem voluptates quam sapiente
+          earum quasi, recusandae maxime, cum asperiores excepturi quo tempore? Perspiciatis voluptate animi, dolor
+          ipsam culpa fugiat!</p>
+      </div>
+    </div>
+  </main>
+  <section>
+    <button type="button" class="btn btn-secondary btn-lg">Comenzá a cotizar</button>
+    <Div class="titulo-principalcv">
+      <h2>Nuestros Usados Garantizados</h2>
+    </Div>
+    <div class="btn-group">
+      <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Filtar
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Mayor Precio</a></li>
+        <li><a class="dropdown-item" href="#">Menor Precio</a></li>
+        <li><a class="dropdown-item" href="#">Descuento</a></li>
+      </ul>
+    <!-- </ul>
+      <ul class="dropdown-menu">
+        <li><a href="">Menor Precio</a></li>
+        <li><a href=""> Mayor Precio </a></li>
+      </ul> -->
+    </div>
+    <div class="btn-group">
+    </div>
+    <!-- <div>
+      <a href="">Por mayor precio</a>
+    </div>
     <div>
-    <h1>Cotizá</h1>
-</div>
-<h1>Verificación</h1>
-<div>
-    <h1>Gestión de Pagos</h1>
-</div>
-</main>
-<section>
-   <a href="">Comenzá a cotizar</a> 
-   <Div>
-    <h2>Nuestros Usados Garantizados</h2>
-   </Div>
-   <div>
-    <a href="">Por mayor precio</a>
-   </div>
-   <div>
-    <a href="">Filtro</a>
-   </div>
-   <div>
-    <img height="300px" src="../img/depositphotos_82277240-stock-photo-image.jpg" alt="">
-   </div>
-   <div>
-    <img height="300px" src="../img/depositphotos_82277240-stock-photo-image.jpg" alt="">
-   </div>
-   <div>
-    <img height="300px" src="../img/depositphotos_82277240-stock-photo-image.jpg" alt="">
-   </div>
-</section>
+      <a href="">Filtro</a>
+    </div> -->
+    <div class="grid-container-autos">
+      <div>
+        <div class="container-text-center">
+          <div>
+            <div class="row align-items-center">
+              <div class="card" style="width: 19rem;">
+                <div class="col">
+                  <img src="../img/chevrolet-autos-nuevo-onix-v1.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make
+                      up the
+                      bulk of
+                      the card's content.</p>
+                    <a href="..." class="btn btn-primary">VER MAS</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="../img/chevrolet-autos-nuevo-onix-v1.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make
+                      up the
+                      bulk of
+                      the card's content.</p>
+                    <a href="..." class="btn btn-primary">VER MAS</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 20rem;">
+                  <img src="../img/imagefiatjpg.webp" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make
+                      up the
+                      bulk of
+                      the card's content.</p>
+                    <a href="..." class="btn btn-primary">VER MAS</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="cradscp">
+      <div>
+        <img height="300px" src="../img/depositphotos_82277240-stock-photo-image.jpg" alt="">
+      </div>
+      <div>
+        <img height="300px" src="../img/depositphotos_82277240-stock-photo-image.jpg" alt="">
+      </div>
+      <div>
+        <img height="300px" src="../img/depositphotos_82277240-stock-photo-image.jpg" alt="">
+      </div>
+    <div> -->
+  </section>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+
 </html>
