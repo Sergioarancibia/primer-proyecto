@@ -1,0 +1,156 @@
+/*barra de navegacion*/
+header main {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: fixed;
+    background: rgb(109, 107, 107);
+    width: 100%;
+    height: 50px;
+}
+@media (max-width:576px){
+    .collapse .navbar-collapse{
+      background-color: grey;
+    } 
+    }
+/*cuepo principal*/
+h1 {
+    color: lightgreen;
+    font-size: 46px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    display: flex;
+    padding: 30px;
+}
+
+.nuestras-oportunidades {
+    font-size: 24px;
+    color: red;
+    text-align: center;
+}
+
+.grid-container1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 206, 206);
+}
+
+.grid-auto {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.marca {
+    text-align: center;
+}
+
+.img-auto {
+    width: 500px;
+    height: 500px;
+}
+
+/* CARDS*/
+.card{
+    width: 20rem;
+    margin-left: 225px;
+}
+.cardone{
+    width: 18,5rem;
+    margin-left: 200px;
+}
+.cardtwo{
+    width: 17rem;
+    margin-right: 1300px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+/*botones de compra*/
+.boton {
+    font-size: 12px;
+    color: black;
+    border-radius: 4px;
+}
+
+.type_boton {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.type_boton2 {
+    font-family: fantasy;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    text-align: ri;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.btn-secondary {
+    margin-left: 800px;
+}
+ .btn-sm {
+    margin-left: 1750px;
+}
+.boton-suscribir {
+    font-size: 18px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+}
+
+.container-sus {
+    justify-self: center;
+    padding: 10px;
+}
+
+/*pie de pagina */
+footer {
+    color: cornflowerblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+}
+
+body {
+    background-image: url(../img/25101.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section div a {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+body div a {
+    text-decoration: none;
+    color: black;
+}
