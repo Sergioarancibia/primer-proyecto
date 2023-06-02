@@ -4,7 +4,14 @@ header main {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 20px;
 }
-
+.navbar-brand{
+    width: 50px;
+    height: 35px;
+}
+.imagenca{
+    width: 30px;
+    height: 30px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -63,11 +70,14 @@ h2 {
     width: 500px;
     height: 500px;
 }
-
+/*Botones de ver mas */
+.btn-primary .btn-cp{
+    background-color: grey;
+}
 /* CARDS*/
 .card{
     width: 20rem;
-    margin-left: 225px;
+    margin-left: 105px;
 }
 .cardone{
     width: 18,5rem;
@@ -81,7 +91,15 @@ h2 {
 h4 {
     font-size: 26px;
 }
-
+/*Drops down */
+.btn-primary{
+    background-color: rgb(105, 105, 105);
+    margin-left: 50px;
+    border-color: black;
+}
+.btn-primary:hover{
+    background-color: rgb(63, 25, 25);
+}
 /*botones de compra*/
 .boton {
     font-size: 12px;
